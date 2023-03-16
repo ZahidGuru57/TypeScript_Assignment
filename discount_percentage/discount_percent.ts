@@ -15,7 +15,11 @@ function calculateDiscount(productPrice: number, discountPercentage: number): vo
   }
   
   // Test the function with different product prices and discount percentages
-  calculateDiscount(20, 10);
+  calculateDiscount(20, 40);
+  console.log("========================")
   calculateDiscount(10, 25);
+  console.log("========================")
   calculateDiscount(20, 60);
+  console.log("========================")
+
   
